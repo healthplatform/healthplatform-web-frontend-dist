@@ -1,0 +1,33 @@
+{
+  "uuid": "ml-params-vm1",
+  "extra": {
+    "user_hostname_port": "samuel@35.238.247.6:22",
+    "provider": "azure_arm",
+    "ssh_config": {
+      "IdentityFile": "/Users/samuel/.ssh/google_compute_engine.pem",
+      "LogLevel": "FATAL",
+      "HostName": [
+        "35.238.247.6"
+      ],
+      "Host": "ml-params-vm1",
+      "PasswordAuthentication": "no",
+      "IdentitiesOnly": "yes",
+      "UserKnownHostsFile": "/dev/null",
+      "User": "samuel",
+      "StrictHostKeyChecking": "yes",
+      "Port": "22"
+    },
+    "user": "samuel",
+    "os": "ubuntu"
+  },
+  "driver": "AzureNodeDriver",
+  "state": "running",
+  "name": "ml-params-vm1",
+  "public_ips": [
+    "35.238.247.6"
+  ],
+  "id": "ml-params-vm1",
+  "private_ips": [
+    "35.238.247.6"
+  ]
+}
